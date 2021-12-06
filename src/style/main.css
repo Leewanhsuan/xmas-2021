@@ -1,0 +1,335 @@
+a {
+    text-decoration: none;
+}
+
+.background {
+    width: 100%;
+    height: 1800px;
+    background-color: #f58992;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.backfloor {
+    width: 100%;
+    height: 300px;
+    background-color: #325789;
+    position: fixed;
+    top: 500px;
+    z-index: 1;
+}
+
+.title1 {
+    font-family: 'Balsamiq Sans';
+    font-size: 50px;
+    color: #f9ec92;
+    transform: rotate(-5deg);
+    position: absolute;
+    left: 10%;
+    top: 3%;
+}
+
+.title2 {
+    font-family: 'Balsamiq Sans';
+    font-size: 40px;
+    color: #f9ec92;
+    transform: rotate(5deg);
+    position: absolute;
+    right: 13%;
+    top: 6%;
+}
+
+.title3 {
+    font-family: 'Balsamiq Sans';
+    font-size: 50px;
+    color: #ffffff;
+    position: absolute;
+    left: 55%;
+    top: 9%;
+}
+
+.fa-heart {
+    z-index: 11;
+    position: fixed;
+    top: 350px;
+    left: 47%;
+    color: #f9ec92;
+}
+
+.fa-heart:hover {
+    color: #f58992;
+}
+
+.imageCandy {
+    width: 300px;
+    z-index: 2;
+    position: fixed;
+    top: 450px;
+    left: 10%;
+}
+
+.imageCandy2 {
+    width: 300px;
+    z-index: 2;
+    position: fixed;
+    top: 450px;
+    left: 0%;
+}
+
+.imageCandy3 {
+    width: 300px;
+    z-index: 2;
+    position: fixed;
+    top: 450px;
+    right: 0%;
+}
+
+.imageCandy4 {
+    width: 300px;
+    z-index: 2;
+    position: fixed;
+    top: 450px;
+    right: 20%;
+}
+
+.imageXiang {
+    width: 250px;
+    z-index: 10;
+    position: fixed;
+    top: 120px;
+    left: 40%;
+}
+
+.imageBlaire {
+    width: 90px;
+    z-index: 12;
+    position: fixed;
+    top: 540px;
+    left: 38%;
+}
+
+.imageBlaire:hover {
+    width: 110px;
+}
+
+.imageAmanda {
+    width: 130px;
+    z-index: 9;
+    position: fixed;
+    top: 330px;
+    left: 33%;
+}
+
+.imageAmanda:hover {
+    width: 170px;
+    position: fixed;
+    top: 270px;
+}
+
+.imageBecky {
+    width: 70px;
+    z-index: 12;
+    position: fixed;
+    top: 500px;
+    right: 35%;
+    transform: rotate(135deg);
+}
+
+.imageBecky:hover {
+    width: 90px;
+}
+
+.imageKH {
+    width: 140px;
+    z-index: 10;
+    position: fixed;
+    top: 310px;
+    right: 25%;
+}
+
+.imageKH:hover {
+    width: 170px;
+    position: fixed;
+    top: 270px;
+    right: 25%;
+}
+
+.imageLawrence {
+    width: 150px;
+    z-index: 10;
+    position: fixed;
+    top: 0px;
+    left: 50%;
+}
+
+.imageLawrence:hover {
+    width: 180px;
+}
+
+.imageTutu {
+    width: 130px;
+    z-index: 10;
+    position: fixed;
+    top: 380px;
+    right: 28%;
+}
+
+.imageTutu:hover {
+    width: 150px;
+}
+
+.imageSelena {
+    width: 140px;
+    z-index: 10;
+    position: fixed;
+    top: 310px;
+    right: 35%;
+}
+.imageSelena:hover {
+    width: 170px;
+    position: fixed;
+    top: 260px;
+    right: 35%;
+}
+
+.imageLiu {
+    width: 110px;
+    z-index: 11;
+    position: fixed;
+    top: 380px;
+    left: 50%;
+}
+
+.imageLiu:hover {
+    width: 130px;
+}
+
+.imageSunny {
+    width: 100px;
+    z-index: 11;
+    position: fixed;
+    top: 390px;
+    left: 29%;
+}
+
+.imageSunny:hover {
+    width: 120px;
+}
+
+.imageVvn {
+    width: 90px;
+    z-index: 10;
+    position: fixed;
+    top: 285px;
+    left: 55%;
+}
+
+.imageVvn:hover {
+    position: fixed;
+    top: 255px;
+}
+
+.imageWei {
+    width: 100px;
+    z-index: 8;
+    position: fixed;
+    top: 350px;
+    left: 24%;
+}
+
+.imageWei:hover {
+    width: 120px;
+}
+
+.imageZoey {
+    width: 100px;
+    z-index: 12;
+    position: fixed;
+    top: 400px;
+    right: 18%;
+    transform: rotate(330deg);
+}
+
+.imageZoey:hover {
+    transform: rotate(300deg);
+}
+
+.imageFamily {
+    width: 300px;
+    z-index: 5;
+    position: fixed;
+    top: 100px;
+    left: 25%;
+}
+
+.imageKong {
+    width: 70px;
+    z-index: 12;
+    position: fixed;
+    top: 250px;
+    right: 18%;
+    transform: rotate(20deg);
+}
+
+.imageKong:hover {
+    transform: rotate(100deg);
+    position: fixed;
+    top: 250px;
+    right: 5%;
+}
+
+/* detail */
+.container {
+    background-color: #e4dfda;
+    width: 100%;
+    height: 2400px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+}
+
+.card1 {
+    width: 400px;
+    position: absolute;
+    left: 35%;
+    top: 0%;
+}
+
+.card2 {
+    width: 800px;
+    position: absolute;
+    left: 20%;
+    top: 40%;
+}
+
+.card3 {
+    width: 300px;
+    position: absolute;
+    left: 0%;
+    top: 800px;
+}
+
+.card4 {
+    width: 300px;
+    position: absolute;
+    right: 0px;
+    top: 1100px;
+}
+
+.card5 {
+    width: 900px;
+    position: absolute;
+    left: 20%;
+    top: 1600px;
+}
+
+.inputGroup {
+    width: 500px;
+    position: absolute;
+    left: 40%;
+    top: 350px;
+    display: flex;
+}
