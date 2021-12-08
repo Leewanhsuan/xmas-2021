@@ -326,10 +326,105 @@ a {
     top: 1600px;
 }
 
-.inputGroup {
-    width: 500px;
+#cardText {
+    width: 750px;
     position: absolute;
-    left: 40%;
-    top: 350px;
+    left: 25%;
+    top: 1750px;
+    font-size: 18px;
+}
+
+.inputGroup {
+    width: 600px;
+    position: absolute;
+    left: 42%;
+    top: 400px;
     display: flex;
+}
+
+#inputBox {
+    width: 200px;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 5px;
+    color: rgb(2, 87, 2);
+}
+
+#codeButton {
+    width: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+#cardTitle {
+    font-size: 40px;
+    position: absolute;
+    left: 42%;
+    top: 330px;
+}
+
+.fa-key {
+    color: rgb(2, 87, 2);
+    font-size: 15px;
+}
+
+.fa-key:hover {
+    color: rgb(219, 10, 10);
+    font-size: 15px;
+}
+
+.image1 {
+    width: 380px;
+    z-index: 1;
+    transform: rotate(20deg);
+    position: absolute;
+    left: 50%;
+    top: 1000px;
+    border: 10px solid #ffffff;
+    border-bottom: 50px solid #ffffff;
+    box-shadow: rgb(190, 190, 190) 1px 1px 10px;
+}
+
+.image2 {
+    width: 380px;
+    z-index: 2;
+    transform: rotate(-10deg);
+    position: absolute;
+    left: 20%;
+    top: 1010px;
+    border: 10px solid #ffffff;
+    border-bottom: 50px solid #ffffff;
+    box-shadow: rgb(190, 190, 190) 1px 1px 10px;
+}
+
+.sticker1 {
+    z-index: 10;
+    width: 220px;
+    position: absolute;
+    left: 24%;
+    top: 970px;
+}
+
+.sticker2 {
+    z-index: 10;
+    transform: rotate(15deg);
+    width: 200px;
+    position: absolute;
+    left: 64%;
+    top: 980px;
+}
+
+.snow1 {
+    width: 200px;
+    position: absolute;
+    left: 0%;
+    top: 50px;
+}
+
+.snow2 {
+    width: 200px;
+    position: absolute;
+    right: 0%;
+    top: 130px;
 }
