@@ -277,7 +277,7 @@ a {
     transform: rotate(100deg);
     position: fixed;
     top: 250px;
-    right: 5%;
+    right: 18%;
 }
 
 /* detail */
@@ -331,13 +331,13 @@ a {
     position: absolute;
     left: 25%;
     top: 1750px;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 .inputGroup {
     width: 600px;
     position: absolute;
-    left: 42%;
+    left: 40%;
     top: 400px;
     display: flex;
 }
@@ -360,7 +360,7 @@ a {
 #cardTitle {
     font-size: 40px;
     position: absolute;
-    left: 42%;
+    left: 40%;
     top: 330px;
 }
 
@@ -427,4 +427,11 @@ a {
     position: absolute;
     right: 0%;
     top: 130px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+    color: seashell;
 }
